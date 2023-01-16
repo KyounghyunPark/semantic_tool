@@ -1,0 +1,453 @@
+{
+   "thingId": "kr.re.etri.kmac:amr1",
+   "features": {
+      "odometry": {
+         "properties": {
+            "pose": {
+               "position": {
+                  "x": {
+                     "topic": "x",
+                     "type": "float"
+                  },
+                  "y": {
+                     "topic": "y",
+                     "type": "float"
+                  },
+                  "z": {
+                     "topic": "z",
+                     "type": "int"
+                  },
+                  "topic": "position"
+               },
+               "orientation": {
+                  "x": {
+                     "topic": "x",
+                     "type": "int"
+                  },
+                  "y": {
+                     "topic": "y",
+                     "type": "int"
+                  },
+                  "z": {
+                     "topic": "z",
+                     "type": "float"
+                  },
+                  "w": {
+                     "topic": "w",
+                     "type": "float"
+                  },
+                  "topic": "orientation"
+               },
+               "topic": "pose"
+            },
+            "velocity": {
+               "linear": {
+                  "x": {
+                     "topic": "x",
+                     "type": "float"
+                  },
+                  "y": {
+                     "topic": "y",
+                     "type": "int"
+                  },
+                  "z": {
+                     "topic": "z",
+                     "type": "int"
+                  },
+                  "topic": "linear"
+               },
+               "angular": {
+                  "x": {
+                     "topic": "x",
+                     "type": "int"
+                  },
+                  "y": {
+                     "topic": "y",
+                     "type": "int"
+                  },
+                  "z": {
+                     "topic": "z",
+                     "type": "float"
+                  },
+                  "topic": "angular"
+               },
+               "topic": "velocity"
+            },
+            "last_update": {
+               "topic": "last_update",
+               "type": "int"
+            }
+         },
+         "topic": "odometry"
+      },
+      "bettery": {
+         "properties": {
+            "charging_rate": {
+               "topic": "charging_rate",
+               "type": "int"
+            },
+            "after_operating_time": {
+               "topic": "",
+               "type": ""
+            },
+            "charging_start_time": {
+               "topic": "charging_start_time",
+               "type": "int"
+            },
+            "last_charging_completion_time": {
+               "topic": "last_charging_completion_time",
+               "type": "int"
+            },
+            "charging_state": {
+               "topic": "charging_state",
+               "type": "bool"
+            },
+            "last_update": {
+               "topic": "last_update",
+               "type": "int"
+            }
+         },
+         "topic": "tetra_battery"
+      },
+      "imu_sensor": {
+         "properties": {
+            "linear_accelerations": {
+               "x": {
+                  "topic": "x",
+                  "type": "float"
+               },
+               "y": {
+                  "topic": "y",
+                  "type": "float"
+               },
+               "z": {
+                  "topic": "z",
+                  "type": "float"
+               },
+               "topic": "accelerations"
+            },
+            "angular_velocity": {
+               "x": {
+                  "topic": "x",
+                  "type": "float"
+               },
+               "y": {
+                  "topic": "y",
+                  "type": "int"
+               },
+               "z": {
+                  "topic": "z",
+                  "type": "int"
+               },
+               "topic": "angular_rotations"
+            },
+            "last_update": {
+               "topic": "last_update",
+               "type": "int"
+            }
+         },
+         "topic": "imu_sensor"
+      },
+      "weight_sensor": {
+         "properties": {
+            "payload_weight": {
+               "topic": "payload_weight",
+               "type": "float"
+            },
+            "payload_class": {
+               "topic": "payload_class",
+               "type": "str"
+            },
+            "last_update": {
+               "topic": "last_update",
+               "type": "int"
+            }
+         },
+         "topic": "weight_sensor"
+      },
+      "local_occupancy_map": {
+         "properties": {
+            "resolution": {
+               "topic": "resolution",
+               "type": "float"
+            },
+            "width": {
+               "topic": "width",
+               "type": "int"
+            },
+            "height": {
+               "topic": "height",
+               "type": "int"
+            },
+            "origin": {
+               "position": {
+                  "x": {
+                     "topic": "x",
+                     "type": "float"
+                  },
+                  "y": {
+                     "topic": "y",
+                     "type": "float"
+                  },
+                  "z": {
+                     "topic": "z",
+                     "type": "int"
+                  },
+                  "topic": "position"
+               },
+               "orientation": {
+                  "x": {
+                     "topic": "x",
+                     "type": "int"
+                  },
+                  "y": {
+                     "topic": "y",
+                     "type": "int"
+                  },
+                  "z": {
+                     "topic": "z",
+                     "type": "int"
+                  },
+                  "w": {
+                     "topic": "w",
+                     "type": "int"
+                  },
+                  "topic": "orientation"
+               },
+               "topic": "origin"
+            },
+            "mapdata": {
+               "topic": "mapdata",
+               "type": "list"
+            },
+            "last_update": {
+               "topic": "last_update",
+               "type": "int"
+            }
+         },
+         "topic": "local_occupancy_map"
+      },
+      "navigation_path": {
+         "properties": {
+            "start_point": {
+               "position": {
+                  "x": {
+                     "topic": "x",
+                     "type": "float"
+                  },
+                  "y": {
+                     "topic": "y",
+                     "type": "float"
+                  },
+                  "z": {
+                     "topic": "z",
+                     "type": "int"
+                  },
+                  "topic": "position"
+               },
+               "orientation": {
+                  "x": {
+                     "topic": "x",
+                     "type": "int"
+                  },
+                  "y": {
+                     "topic": "y",
+                     "type": "int"
+                  },
+                  "z": {
+                     "topic": "z",
+                     "type": "float"
+                  },
+                  "w": {
+                     "topic": "w",
+                     "type": "float"
+                  },
+                  "topic": "orientation"
+               },
+               "topic": "start_point"
+            },
+            "end_point": {
+               "position": {
+                  "x": {
+                     "topic": "x",
+                     "type": "float"
+                  },
+                  "y": {
+                     "topic": "y",
+                     "type": "float"
+                  },
+                  "z": {
+                     "topic": "z",
+                     "type": "int"
+                  },
+                  "topic": "position"
+               },
+               "orientation": {
+                  "x": {
+                     "topic": "x",
+                     "type": "int"
+                  },
+                  "y": {
+                     "topic": "y",
+                     "type": "int"
+                  },
+                  "z": {
+                     "topic": "z",
+                     "type": "float"
+                  },
+                  "w": {
+                     "topic": "w",
+                     "type": "float"
+                  },
+                  "topic": "orientation"
+               },
+               "topic": "end_point"
+            },
+            "vertex_points": {
+               "num_points": {
+                  "topic": "num_points",
+                  "type": "int"
+               },
+               "points": {
+                  "topic": "points",
+                  "type": "list"
+               },
+               "topic": "vertex_points"
+            },
+            "last_update": {
+               "topic": "last_update",
+               "type": "int"
+            }
+         },
+         "topic": "navigation_path"
+      },
+      "operating_events": {
+         "properties": {
+            "on_power_off": {
+               "topic": "on_power_off",
+               "type": "bool"
+            },
+            "on_docking_cstation": {
+               "topic": "on_docking_cstation",
+               "type": "bool"
+            },
+            "on_charging": {
+               "topic": "on_charging",
+               "type": "bool"
+            },
+            "on_charging_completed": {
+               "topic": "on_charging_completed",
+               "type": "bool"
+            },
+            "on_manual_control": {
+               "topic": "on_manual_control",
+               "type": "bool"
+            },
+            "on_navigation": {
+               "topic": "on_navigation",
+               "type": "bool"
+            },
+            "on_path_obstruction": {
+               "topic": "on_path_obstruction",
+               "type": "bool"
+            },
+            "on_pausing": {
+               "topic": "on_pausing",
+               "type": "bool"
+            },
+            "on_emergency_stop": {
+               "topic": "on_emergency_stop",
+               "type": "bool"
+            },
+            "on_collision_detected": {
+               "topic": "on_collision_detected",
+               "type": "bool"
+            },
+            "on_avoidance_routing": {
+               "topic": "on_rerouting",
+               "type": "bool"
+            },
+            "on_waiting_task": {
+               "topic": "on_waiting_task",
+               "type": "bool"
+            },
+            "on_docking_station": {
+               "topic": "on_docking_station",
+               "type": "bool"
+            },
+            "last_update": {
+               "topic": "last_update",
+               "type": "int"
+            }
+         },
+         "topic": "operating_events"
+      },
+      "docking_events": {
+         "properties": {
+            "on_docking_action": {
+               "topic": "on_docking_action",
+               "type": "bool"
+            },
+            "on_approaching": {
+               "topic": "on_approaching",
+               "type": "bool"
+            },
+            "on_correction": {
+               "topic": "on_correction",
+               "type": "bool"
+            },
+            "on_docking_completed": {
+               "topic": "on_docking_completed",
+               "type": "bool"
+            },
+            "target_stationid": {
+               "topic": "target_stationid",
+               "type": "int"
+            },
+            "last_update": {
+               "topic": "last_update",
+               "type": "int"
+            }
+         },
+         "topic": "docking_events"
+      },
+      "loader_events": {
+         "properties": {
+            "on_loading": {
+               "topic": "on_loading",
+               "type": "bool"
+            },
+            "on_unloading": {
+               "topic": "on_unloading",
+               "type": "bool"
+            },
+            "last_update": {
+               "topic": "last_update",
+               "type": "int"
+            }
+         },
+         "topic": "loader_events"
+      },
+      "command": {
+         "properties": {
+            "do_pause": {
+               "topic": "do_pause",
+               "type": "bool"
+            },
+            "do_restart": {
+               "topic": "do_restart",
+               "type": "bool"
+            },
+            "do_move_to_station": {
+               "topic": "do_move_to_station",
+               "type": "int"
+            },
+            "last_update": {
+               "topic": "last_update",
+               "type": "int"
+            }
+         },
+         "topic": "command"
+      }
+   }
+}

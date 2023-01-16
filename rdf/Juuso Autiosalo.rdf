@@ -1,0 +1,44 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dt="https://etri.re.kr#">
+  <rdf:Description rdf:about="http://dtid.org/488cccff-6902-41a9-9130-24ba2e62fbd8">
+    <dt:version>1.0</dt:version>
+    <dt:baseurl>https://dtw.twinbase.org</dt:baseurl>
+    <dt:dt-id>http://dtid.org/488cccff-6902-41a9-9130-24ba2e62fbd8</dt:dt-id>
+    <dt:edit>https://github.com/juusoautiosalo/twinbase-demo/edit/main/docs/juuso/index.yaml</dt:edit>
+    <dt:features rdf:parseType="Resource">
+      <dt:address>https://users.aalto.fi/~autiosj1/</dt:address>
+      <dt:description>Some old website made by Juuso, hosted by Aalto.</dt:description>
+      <dt:name>Another website</dt:name>
+    </dt:features>
+    <dt:features rdf:parseType="Resource">
+      <dt:address>https://github.com/juusoautiosalo</dt:address>
+      <dt:description>Juuso's GitHub profile</dt:description>
+      <dt:name>GiHub profile</dt:name>
+    </dt:features>
+    <dt:features rdf:parseType="Resource">
+      <dt:address>https://me.juu.so</dt:address>
+      <dt:name>Personal website</dt:name>
+    </dt:features>
+    <dt:privacy>public</dt:privacy>
+    <dt:mindsphere rdf:parseType="Resource">
+      <dt:secret>GWCXZB5FNPFAN7CJPK8jG0B5fBvsgrsEiuqELN3U8Xz</dt:secret>
+      <dt:id>aiicd1-twinaide-v1.0.0</dt:id>
+      <dt:assets-id>d0fbce04cac947ec8919fb8960209cc9</dt:assets-id>
+    </dt:mindsphere>
+    <dt:name>Juuso Autiosalo</dt:name>
+    <dt:contact rdf:parseType="Resource">
+      <dt:website>https://people.aalto.fi/juuso.autiosalo</dt:website>
+    </dt:contact>
+    <dt:hosting-iri>https://dtw.twinbase.org/juuso</dt:hosting-iri>
+    <dt:location rdf:parseType="Resource">
+      <dt:streetAddress>Sörnäinen, Helsinki, Finland</dt:streetAddress>
+    </dt:location>
+    <dt:features rdf:parseType="Resource">
+      <dt:address>https://www.linkedin.com/in/juuso-autiosalo</dt:address>
+      <dt:description>Juuso occasionally uses LinkedIn.</dt:description>
+      <dt:name>LinkedIn profile</dt:name>
+    </dt:features>
+    <dt:description>Juuso is working as a doctoral candidate at Aalto University.</dt:description>
+  </rdf:Description>
+</rdf:RDF>

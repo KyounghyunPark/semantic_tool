@@ -1,0 +1,24 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dt="https://etri.re.kr#">
+  <rdf:Description rdf:about="https://dtid.org/0d8a59d0-0742-4b77-899d-5ca0d4e22b1e">
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>child</dt:relationType>
+      <dt:dt-id>https://dtid.org/fe274bc5-2737-47e3-84fe-390592026f8e</dt:dt-id>
+    </dt:relations>
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>child</dt:relationType>
+      <dt:dt-id>https://dtid.org/a295db35-9889-4f9c-bf19-7c42a7bd72d8</dt:dt-id>
+    </dt:relations>
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>parent</dt:relationType>
+      <dt:dt-id>https://dtid.org/e0fd6ea0-a610-4680-9c75-2911f34f71b9</dt:dt-id>
+    </dt:relations>
+    <dt:edit>https://github.com/machinaide/twinbase/edit/main/docs/0d8a59d0-0742-4b77-899d-5ca0d4e22b1e/index.yaml</dt:edit>
+    <dt:baseurl>https://dtw.machinaide.twinbase.org</dt:baseurl>
+    <dt:description>Netherlands factory of the Machinaide project.</dt:description>
+    <dt:name>Netherlands factory</dt:name>
+    <dt:hosting-iri>https://dtw.machinaide.twinbase.org/0d8a59d0-0742-4b77-899d-5ca0d4e22b1e</dt:hosting-iri>
+    <dt:dt-id>https://dtid.org/0d8a59d0-0742-4b77-899d-5ca0d4e22b1e</dt:dt-id>
+  </rdf:Description>
+</rdf:RDF>

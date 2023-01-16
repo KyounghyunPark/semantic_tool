@@ -1,0 +1,12 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dt="https://etri.re.kr#">
+  <rdf:Description rdf:about="https://dtid.org/0e120fb5-e931-4f2d-8aeb-5a9f371e3013">
+    <dt:edit>https://github.com/machinaide/twinbase/edit/main/docs/0e120fb5-e931-4f2d-8aeb-5a9f371e3013/index.yaml</dt:edit>
+    <dt:baseurl>https://dtw.machinaide.twinbase.org</dt:baseurl>
+    <dt:description>Robot arm 1 of Turkish factory</dt:description>
+    <dt:name>Robot arm 1</dt:name>
+    <dt:hosting-iri>https://dtw.machinaide.twinbase.org/0e120fb5-e931-4f2d-8aeb-5a9f371e3013</dt:hosting-iri>
+    <dt:dt-id>https://dtid.org/0e120fb5-e931-4f2d-8aeb-5a9f371e3013</dt:dt-id>
+  </rdf:Description>
+</rdf:RDF>

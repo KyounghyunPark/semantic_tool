@@ -1,0 +1,20 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dt="https://etri.re.kr#">
+  <rdf:Description rdf:about="https://dtid.org/1bbfab79-2890-4bcf-97fa-9dffb99c1759">
+    <dt:mindsphere rdf:parseType="Resource">
+      <dt:secret>GWCXZB5FNPFAN7CJPK8jG0B5fBvsgrsEiuqELN3U8Xz</dt:secret>
+      <dt:id>aiicd1-twinaide-v1.0.0</dt:id>
+      <dt:assets-id>d0fbce04cac947ec8919fb8960209cc9</dt:assets-id>
+    </dt:mindsphere>
+    <dt:relations rdf:parseType="Resource">
+      <dt:parent>https://d-t.fi/juuso</dt:parent>
+    </dt:relations>
+    <dt:edit>https://github.com/juusoautiosalo/twinbase-demo/edit/main/docs/1bbfab79-2890-4bcf-97fa-9dffb99c1759/index.yaml</dt:edit>
+    <dt:baseurl>https://dtw.twinbase.org</dt:baseurl>
+    <dt:description>This twin can be modified on the research seminar.</dt:description>
+    <dt:name>Twin for research seminar</dt:name>
+    <dt:hosting-iri>https://dtw.twinbase.org/1bbfab79-2890-4bcf-97fa-9dffb99c1759</dt:hosting-iri>
+    <dt:dt-id>https://dtid.org/1bbfab79-2890-4bcf-97fa-9dffb99c1759</dt:dt-id>
+  </rdf:Description>
+</rdf:RDF>

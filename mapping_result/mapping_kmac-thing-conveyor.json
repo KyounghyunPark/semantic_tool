@@ -1,0 +1,22 @@
+{
+   "thingId": "kr.re.etri.kmac:conveyor",
+   "features": {
+      "operating_event": {
+         "properties": {
+            "on_belt_running": {
+               "topic": "on_belt_running",
+               "type": "bool"
+            },
+            "on_buffer_state_code": {
+               "topic": "on_buffer_state_code",
+               "type": "int"
+            },
+            "last_update": {
+               "topic": "last_update",
+               "type": "int"
+            }
+         },
+         "topic": "operating_events"
+      }
+   }
+}

@@ -1,0 +1,16 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dt="https://etri.re.kr#">
+  <rdf:Description rdf:about="https://dtid.org/b4f930cf-d2d4-4be6-b75d-c80717e6f87b">
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>parent</dt:relationType>
+      <dt:dt-id>https://dtid.org/e5917d31-adc6-4ed5-9060-328fee349df8</dt:dt-id>
+    </dt:relations>
+    <dt:edit>https://github.com/machinaide/twinbase/edit/main/docs/b4f930cf-d2d4-4be6-b75d-c80717e6f87b/index.yaml</dt:edit>
+    <dt:baseurl>https://dtw.machinaide.twinbase.org</dt:baseurl>
+    <dt:description>Envoronmental sensor located in Korea testbed</dt:description>
+    <dt:name>Environmental sensor</dt:name>
+    <dt:hosting-iri>https://dtw.machinaide.twinbase.org/b4f930cf-d2d4-4be6-b75d-c80717e6f87b</dt:hosting-iri>
+    <dt:dt-id>https://dtid.org/b4f930cf-d2d4-4be6-b75d-c80717e6f87b</dt:dt-id>
+  </rdf:Description>
+</rdf:RDF>

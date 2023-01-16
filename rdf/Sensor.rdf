@@ -1,0 +1,26 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dt="https://etri.re.kr#">
+  <rdf:Description rdf:about="https://dtid.org/2bf2ee33-1297-4c30-afac-d80411f3f617">
+    <dt:mindsphere rdf:parseType="Resource">
+      <dt:secret>GWCXZB5FNPFAN7CJPK8jG0B5fBvsgrsEiuqELN3U8Xz</dt:secret>
+      <dt:id>aiicd1-twinaide-v1.0.0</dt:id>
+      <dt:assets-id>d0fbce04cac947ec8919fb8960209cc9</dt:assets-id>
+    </dt:mindsphere>
+    <dt:features rdf:parseType="Resource">
+      <dt:address>https://example.iotplatform.fi/sensors/2bf2ee33</dt:address>
+      <dt:description>IoT platform that manages this sensor and stores the data for this sensor.</dt:description>
+      <dt:name>IoT platform</dt:name>
+    </dt:features>
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>parent</dt:relationType>
+      <dt:dt-id>http://dtid.org/6a303315-d9e5-48ef-a1da-d37bcaa10c57</dt:dt-id>
+    </dt:relations>
+    <dt:edit>https://github.com/juusoautiosalo/twinbase-demo/edit/main/docs/2bf2ee33-1297-4c30-afac-d80411f3f617/index.yaml</dt:edit>
+    <dt:baseurl>https://dtw.twinbase.org</dt:baseurl>
+    <dt:description>Some sensor attached to Ilmatar the ovehead crane. Measures temperature and humidity.</dt:description>
+    <dt:name>Sensor</dt:name>
+    <dt:hosting-iri>https://dtw.twinbase.org/2bf2ee33-1297-4c30-afac-d80411f3f617</dt:hosting-iri>
+    <dt:dt-id>https://dtid.org/2bf2ee33-1297-4c30-afac-d80411f3f617</dt:dt-id>
+  </rdf:Description>
+</rdf:RDF>

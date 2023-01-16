@@ -1,0 +1,24 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dt="https://etri.re.kr#">
+  <rdf:Description rdf:about="https://dtid.org/97c2724a-9c45-47e0-a74e-98fd66f5f27b">
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>child</dt:relationType>
+      <dt:dt-id>https://dtid.org/a207283a-98ea-4393-ac15-229ee96e0488</dt:dt-id>
+    </dt:relations>
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>child</dt:relationType>
+      <dt:dt-id>https://dtid.org/a95e51fb-5e98-49a9-9786-beb27cd73384</dt:dt-id>
+    </dt:relations>
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>parent</dt:relationType>
+      <dt:dt-id>https://dtid.org/e5917d31-adc6-4ed5-9060-328fee349df8</dt:dt-id>
+    </dt:relations>
+    <dt:edit>https://github.com/machinaide/twinbase/edit/main/docs/97c2724a-9c45-47e0-a74e-98fd66f5f27b/index.yaml</dt:edit>
+    <dt:baseurl>https://dtw.machinaide.twinbase.org</dt:baseurl>
+    <dt:description>Conveyer located in Korea testbed</dt:description>
+    <dt:name>Conveyor</dt:name>
+    <dt:hosting-iri>https://dtw.machinaide.twinbase.org/97c2724a-9c45-47e0-a74e-98fd66f5f27b</dt:hosting-iri>
+    <dt:dt-id>https://dtid.org/97c2724a-9c45-47e0-a74e-98fd66f5f27b</dt:dt-id>
+  </rdf:Description>
+</rdf:RDF>

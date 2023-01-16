@@ -1,0 +1,21 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dt="https://etri.re.kr#">
+  <rdf:Description rdf:about="https://dtid.org/ef7ecf79-e869-4953-aac0-b04c7605015a">
+    <dt:mindsphere rdf:parseType="Resource">
+      <dt:secret>GWCXZB5FNPFAN7CJPK8jG0B5fBvsgrsEiuqELN3U8Xz</dt:secret>
+      <dt:id>aiicd1-twinaide-v1.0.0</dt:id>
+      <dt:assets-id>d0fbce04cac947ec8919fb8960209cc9</dt:assets-id>
+    </dt:mindsphere>
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>parent</dt:relationType>
+      <dt:dt-id>https://dtid.org/2358055c-4712-4b53-a0c6-fa8f2b90719f</dt:dt-id>
+    </dt:relations>
+    <dt:edit>https://github.com/juusoautiosalo/twinbase-demo/edit/main/docs/ef7ecf79-e869-4953-aac0-b04c7605015a/index.yaml</dt:edit>
+    <dt:baseurl>https://dtw.twinbase.org</dt:baseurl>
+    <dt:description>A component of Ilmatar the crane</dt:description>
+    <dt:name>Hoist of Ilmatar</dt:name>
+    <dt:hosting-iri>https://dtw.twinbase.org/ef7ecf79-e869-4953-aac0-b04c7605015a</dt:hosting-iri>
+    <dt:dt-id>https://dtid.org/ef7ecf79-e869-4953-aac0-b04c7605015a</dt:dt-id>
+  </rdf:Description>
+</rdf:RDF>

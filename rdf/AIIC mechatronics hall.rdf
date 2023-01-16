@@ -1,0 +1,43 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dt="https://etri.re.kr#">
+  <rdf:Description rdf:about="http://dtid.org/3091b292-6104-4ef3-a30f-8275b46b5ab4">
+    <dt:description>A laboratory room located at Aalto University.</dt:description>
+    <dt:owner rdf:parseType="Resource">
+      <dt:website>https://www.aalto.fi</dt:website>
+      <dt:name>Aalto-yliopistosäätiö</dt:name>
+    </dt:owner>
+    <dt:mindsphere rdf:parseType="Resource">
+      <dt:secret>GWCXZB5FNPFAN7CJPK8jG0B5fBvsgrsEiuqELN3U8Xz</dt:secret>
+      <dt:id>aiicd1-twinaide-v1.0.0</dt:id>
+      <dt:assets-id>d0fbce04cac947ec8919fb8960209cc9</dt:assets-id>
+    </dt:mindsphere>
+    <dt:baseurl>https://dtw.twinbase.org</dt:baseurl>
+    <dt:location rdf:parseType="Resource">
+      <dt:gpsCoordinates>60.1841° N, 24.8301° E</dt:gpsCoordinates>
+      <dt:streetAddress>Otaniemi</dt:streetAddress>
+    </dt:location>
+    <dt:contact rdf:parseType="Resource">
+      <dt:website>https://people.aalto.fi/juuso.autiosalo</dt:website>
+      <dt:name>Juuso Autiosalo</dt:name>
+    </dt:contact>
+    <dt:privacy>public</dt:privacy>
+    <dt:name>AIIC mechatronics hall</dt:name>
+    <dt:hosting-iri>https://dtw.twinbase.org/lab-room-K3-143</dt:hosting-iri>
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>child</dt:relationType>
+      <dt:dt-id>http://dtid.org/6a303315-d9e5-48ef-a1da-d37bcaa10c57</dt:dt-id>
+    </dt:relations>
+    <dt:dt-id>http://dtid.org/3091b292-6104-4ef3-a30f-8275b46b5ab4</dt:dt-id>
+    <dt:edit>https://github.com/juusoautiosalo/twinbase-demo/edit/main/docs/lab-room-K3-143/index.yaml</dt:edit>
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>child</dt:relationType>
+      <dt:dt-id>https://dtid.org/19096ff3-8c0e-4d16-82d4-d0220f33709b</dt:dt-id>
+    </dt:relations>
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>parent</dt:relationType>
+      <dt:dt-id>https://dtid.org/81ca4ef8-0125-4b27-8f44-3a1587e8bd57</dt:dt-id>
+    </dt:relations>
+    <dt:version>1.0</dt:version>
+  </rdf:Description>
+</rdf:RDF>

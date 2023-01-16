@@ -1,0 +1,16 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dt="https://etri.re.kr#">
+  <rdf:Description rdf:about="https://dtid.org/dcd46af0-e01c-4c52-9493-28154cadd921">
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>parent</dt:relationType>
+      <dt:dt-id>https://dtid.org/e96c7cfa-5bae-4e44-821d-09d1040818c1</dt:dt-id>
+    </dt:relations>
+    <dt:edit>https://github.com/machinaide/twinbase/edit/main/docs/dcd46af0-e01c-4c52-9493-28154cadd921/index.yaml</dt:edit>
+    <dt:baseurl>https://dtw.machinaide.twinbase.org</dt:baseurl>
+    <dt:description>OSEMA sensor attached to Crane in Finland factory</dt:description>
+    <dt:name>OSEMA sensor</dt:name>
+    <dt:hosting-iri>https://dtw.machinaide.twinbase.org/dcd46af0-e01c-4c52-9493-28154cadd921</dt:hosting-iri>
+    <dt:dt-id>https://dtid.org/dcd46af0-e01c-4c52-9493-28154cadd921</dt:dt-id>
+  </rdf:Description>
+</rdf:RDF>

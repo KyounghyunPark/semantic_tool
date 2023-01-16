@@ -1,0 +1,12 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dt="https://etri.re.kr#">
+  <rdf:Description rdf:about="https://dtid.org/aa530dd0-9510-4bfe-9def-facd3f1e77f3">
+    <dt:edit>https://github.com/machinaide/twinbase/edit/main/docs/aa530dd0-9510-4bfe-9def-facd3f1e77f3/index.yaml</dt:edit>
+    <dt:baseurl>https://dtw.machinaide.twinbase.org</dt:baseurl>
+    <dt:description>Sensor 1 of Turkish factory</dt:description>
+    <dt:name>Sensor 1</dt:name>
+    <dt:hosting-iri>https://dtw.machinaide.twinbase.org/aa530dd0-9510-4bfe-9def-facd3f1e77f3</dt:hosting-iri>
+    <dt:dt-id>https://dtid.org/aa530dd0-9510-4bfe-9def-facd3f1e77f3</dt:dt-id>
+  </rdf:Description>
+</rdf:RDF>

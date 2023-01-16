@@ -1,0 +1,33 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dt="https://etri.re.kr#">
+  <rdf:Description rdf:about="https://dtid.org/e0fd6ea0-a610-4680-9c75-2911f34f71b9">
+    <dt:dt-id>https://dtid.org/e0fd6ea0-a610-4680-9c75-2911f34f71b9</dt:dt-id>
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>child</dt:relationType>
+      <dt:dt-id>https://dtid.org/0d8a59d0-0742-4b77-899d-5ca0d4e22b1e</dt:dt-id>
+    </dt:relations>
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>parent</dt:relationType>
+      <dt:dt-id>https://dtid.org/earth</dt:dt-id>
+    </dt:relations>
+    <dt:description>Parent twin for the Machinaide ecosystem developed in the Machinaide project. This twin document and its child twins are used for development purposes and are partially mockup and partially mirroring actual machines. More info about the project: https://www.machinaide.eu/
+</dt:description>
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>child</dt:relationType>
+      <dt:dt-id>https://dtid.org/dac78202-acf5-4d45-bcb9-09933eb5f66c</dt:dt-id>
+    </dt:relations>
+    <dt:name>Machinaide ecosystem</dt:name>
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>child</dt:relationType>
+      <dt:dt-id>https://dtid.org/f92f8728-13ff-42c8-8a3e-94c6d1b62fa6</dt:dt-id>
+    </dt:relations>
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>child</dt:relationType>
+      <dt:dt-id>https://dtid.org/e5917d31-adc6-4ed5-9060-328fee349df8</dt:dt-id>
+    </dt:relations>
+    <dt:baseurl>https://dtw.machinaide.twinbase.org</dt:baseurl>
+    <dt:hosting-iri>https://dtw.machinaide.twinbase.org/e0fd6ea0-a610-4680-9c75-2911f34f71b9</dt:hosting-iri>
+    <dt:edit>https://github.com/machinaide/twinbase/edit/main/docs/e0fd6ea0-a610-4680-9c75-2911f34f71b9/index.yaml</dt:edit>
+  </rdf:Description>
+</rdf:RDF>

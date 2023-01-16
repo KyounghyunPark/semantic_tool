@@ -1,0 +1,16 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dt="https://etri.re.kr#">
+  <rdf:Description rdf:about="https://dtid.org/89055abd-d2a6-451e-8519-e9961074919e">
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>parent</dt:relationType>
+      <dt:dt-id>https://dtid.org/e96c7cfa-5bae-4e44-821d-09d1040818c1</dt:dt-id>
+    </dt:relations>
+    <dt:edit>https://github.com/machinaide/twinbase/edit/main/docs/89055abd-d2a6-451e-8519-e9961074919e/index.yaml</dt:edit>
+    <dt:baseurl>https://dtw.machinaide.twinbase.org</dt:baseurl>
+    <dt:description>Bridge of Crane in Finland factory</dt:description>
+    <dt:name>Bridge</dt:name>
+    <dt:hosting-iri>https://dtw.machinaide.twinbase.org/89055abd-d2a6-451e-8519-e9961074919e</dt:hosting-iri>
+    <dt:dt-id>https://dtid.org/89055abd-d2a6-451e-8519-e9961074919e</dt:dt-id>
+  </rdf:Description>
+</rdf:RDF>

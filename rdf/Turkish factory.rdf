@@ -1,0 +1,12 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dt="https://etri.re.kr#">
+  <rdf:Description rdf:about="https://dtid.org/dac78202-acf5-4d45-bcb9-09933eb5f66c">
+    <dt:edit>https://github.com/machinaide/twinbase/edit/main/docs/dac78202-acf5-4d45-bcb9-09933eb5f66c/index.yaml</dt:edit>
+    <dt:baseurl>https://dtw.machinaide.twinbase.org</dt:baseurl>
+    <dt:description>Turkish factory of the Machinaide project</dt:description>
+    <dt:name>Turkish factory</dt:name>
+    <dt:hosting-iri>https://dtw.machinaide.twinbase.org/dac78202-acf5-4d45-bcb9-09933eb5f66c</dt:hosting-iri>
+    <dt:dt-id>https://dtid.org/dac78202-acf5-4d45-bcb9-09933eb5f66c</dt:dt-id>
+  </rdf:Description>
+</rdf:RDF>

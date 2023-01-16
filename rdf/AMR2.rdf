@@ -1,0 +1,16 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dt="https://etri.re.kr#">
+  <rdf:Description rdf:about="https://dtid.org/a1fcd96b-a9b1-4a69-a841-64d2a36d844e">
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>parent</dt:relationType>
+      <dt:dt-id>https://dtid.org/e5917d31-adc6-4ed5-9060-328fee349df8</dt:dt-id>
+    </dt:relations>
+    <dt:edit>https://github.com/machinaide/twinbase/edit/main/docs/a1fcd96b-a9b1-4a69-a841-64d2a36d844e/index.yaml</dt:edit>
+    <dt:baseurl>https://dtw.machinaide.twinbase.org</dt:baseurl>
+    <dt:description>Autonomous Mobile Robot (AMR) 2 of Korea testbed</dt:description>
+    <dt:name>AMR2</dt:name>
+    <dt:hosting-iri>https://dtw.machinaide.twinbase.org/a1fcd96b-a9b1-4a69-a841-64d2a36d844e</dt:hosting-iri>
+    <dt:dt-id>https://dtid.org/a1fcd96b-a9b1-4a69-a841-64d2a36d844e</dt:dt-id>
+  </rdf:Description>
+</rdf:RDF>

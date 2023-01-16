@@ -1,0 +1,16 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dt="https://etri.re.kr#">
+  <rdf:Description rdf:about="https://dtid.org/5d79b93c-50df-40dc-97e2-158f42bc2501">
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>parent</dt:relationType>
+      <dt:dt-id>https://dtid.org/e5917d31-adc6-4ed5-9060-328fee349df8</dt:dt-id>
+    </dt:relations>
+    <dt:edit>https://github.com/machinaide/twinbase/edit/main/docs/5d79b93c-50df-40dc-97e2-158f42bc2501/index.yaml</dt:edit>
+    <dt:baseurl>https://dtw.machinaide.twinbase.org</dt:baseurl>
+    <dt:description>Charging station located in Korea testbed</dt:description>
+    <dt:name>Charging station</dt:name>
+    <dt:hosting-iri>https://dtw.machinaide.twinbase.org/5d79b93c-50df-40dc-97e2-158f42bc2501</dt:hosting-iri>
+    <dt:dt-id>https://dtid.org/5d79b93c-50df-40dc-97e2-158f42bc2501</dt:dt-id>
+  </rdf:Description>
+</rdf:RDF>

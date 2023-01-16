@@ -1,0 +1,51 @@
+{
+   "thingId": "kr.re.etri.kmac:st_charging",
+   "features": {
+      "current_charging": {
+         "properties": {
+            "charging_amrid": {
+               "topic": "charging_amrid",
+               "type": "int"
+            },
+            "charging_percent": {
+               "topic": "charging_percent",
+               "type": "int"
+            },
+            "last_update": {
+               "topic": "last_update",
+               "type": "int"
+            }
+         },
+         "topic": "current_charging"
+      },
+      "operating_events": {
+         "properties": {
+            "on_docking_approaching": {
+               "topic": "on_docking_approaching",
+               "type": "bool"
+            },
+            "on_docking_completed": {
+               "topic": "on_docking_completed",
+               "type": "bool"
+            },
+            "on_docking_stopped": {
+               "topic": "on_docking_stopped",
+               "type": "bool"
+            },
+            "on_charging": {
+               "topic": "on_charging",
+               "type": "bool"
+            },
+            "on_charging_completed": {
+               "topic": "on_charging_completed",
+               "type": "bool"
+            },
+            "last_update": {
+               "topic": "last_update",
+               "type": "int"
+            }
+         },
+         "topic": "operating_events"
+      }
+   }
+}

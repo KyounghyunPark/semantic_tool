@@ -1,0 +1,89 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dt="https://etri.re.kr#">
+  <rdf:Description rdf:about="http://dtid.org/6a303315-d9e5-48ef-a1da-d37bcaa10c57">
+    <dt:version>1.0</dt:version>
+    <dt:location rdf:parseType="Resource">
+      <dt:gpsCoordinates>60.1841° N, 24.8301° E</dt:gpsCoordinates>
+      <dt:streetAddress>Otaniemi</dt:streetAddress>
+    </dt:location>
+    <dt:privacy>public</dt:privacy>
+    <dt:name>Ilmatar crane</dt:name>
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>parent</dt:relationType>
+      <dt:dt-id>http://dtid.org/3091b292-6104-4ef3-a30f-8275b46b5ab4</dt:dt-id>
+    </dt:relations>
+    <dt:mindsphere rdf:parseType="Resource">
+      <dt:secret>GWCXZB5FNPFAN7CJPK8jG0B5fBvsgrsEiuqELN3U8Xz</dt:secret>
+      <dt:id>aiicd1-twinaide-v1.0.0</dt:id>
+      <dt:assets-id>d0fbce04cac947ec8919fb8960209cc9</dt:assets-id>
+    </dt:mindsphere>
+    <dt:edit>https://github.com/juusoautiosalo/twinbase-demo/edit/main/docs/crane-ilmatar/index.yaml</dt:edit>
+    <dt:features rdf:parseType="Resource">
+      <dt:documentation>https://github.com/AaltoIIC/OPC-UA-GraphQL-Wrapper</dt:documentation>
+      <dt:address>192.168.0.77</dt:address>
+      <dt:requirement>Access to Ilmatar local network, details available on request.</dt:requirement>
+      <dt:description>This interface allows accessing OPC UA using GraphQL</dt:description>
+      <dt:name>GraphQL Interface</dt:name>
+    </dt:features>
+    <dt:dt-id>http://dtid.org/6a303315-d9e5-48ef-a1da-d37bcaa10c57</dt:dt-id>
+    <dt:contact rdf:parseType="Resource">
+      <dt:website>https://people.aalto.fi/juuso.autiosalo</dt:website>
+      <dt:name>Juuso Autiosalo</dt:name>
+    </dt:contact>
+    <dt:features rdf:parseType="Resource">
+      <dt:documentation>http://mindsphere.io</dt:documentation>
+      <dt:requirement>User account for the aiicd1 tenant is required.</dt:requirement>
+      <dt:address>https://crane-fleetmanager.eu1.mindsphere.io/</dt:address>
+      <dt:description>MindSphere stores historical data of the crane</dt:description>
+      <dt:name>MindSphere</dt:name>
+    </dt:features>
+    <dt:features rdf:parseType="Resource">
+      <dt:requirement>Access to Ilmatar local network, details available on request.</dt:requirement>
+      <dt:description>OPC UA server allows real-time monitoring and control of the crane</dt:description>
+      <dt:name>OPC UA</dt:name>
+    </dt:features>
+    <dt:owner rdf:parseType="Resource">
+      <dt:website>https://www.aalto.fi</dt:website>
+      <dt:name>Aalto-yliopistosäätiö</dt:name>
+    </dt:owner>
+    <dt:features rdf:parseType="Resource">
+      <dt:documentation>teamcenter.com</dt:documentation>
+      <dt:requirement>Access to Aalto Teamcenter.</dt:requirement>
+      <dt:description>Teamcenter stores PLM data of the crane. Includes 3D model of the crane without business criticial parts</dt:description>
+      <dt:name>Teamcenter</dt:name>
+    </dt:features>
+    <dt:features rdf:parseType="Resource">
+      <dt:address>https://aalto.fi/ilmatar</dt:address>
+      <dt:description>The website of Ilmatar OIE provides human readable information about the crane.</dt:description>
+      <dt:name>Ilmatar OIE</dt:name>
+    </dt:features>
+    <dt:hosting-iri>https://dtw.twinbase.org/crane-ilmatar</dt:hosting-iri>
+    <dt:features rdf:parseType="Resource">
+      <dt:documentation>https://github.com/AaltoIIC/OSEMA/blob/master/Documentation.md</dt:documentation>
+      <dt:requirement>User account is needed.</dt:requirement>
+      <dt:apiAddress>https://digi.kaksonen.fi/api/v1.0/</dt:apiAddress>
+      <dt:address>https://example.sensor.fi/sensors/browse</dt:address>
+      <dt:description>OSEMA allows managing retrofitted sensors attached to the crane.</dt:description>
+      <dt:name>OSEMA</dt:name>
+    </dt:features>
+    <dt:description>Ilmatar is an overhead crane located at Aalto University.</dt:description>
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>child</dt:relationType>
+      <dt:dt-id>https://dtid.org/2358055c-4712-4b53-a0c6-fa8f2b90719f</dt:dt-id>
+    </dt:relations>
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>child</dt:relationType>
+      <dt:dt-id>https://dtid.org/329cd047-09b1-419a-b389-b10615bb7211</dt:dt-id>
+    </dt:relations>
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>child</dt:relationType>
+      <dt:dt-id>https://dtid.org/2bf2ee33-1297-4c30-afac-d80411f3f617</dt:dt-id>
+    </dt:relations>
+    <dt:manufacturer rdf:parseType="Resource">
+      <dt:website>https://www.konecranes.com</dt:website>
+      <dt:name>Konecranes</dt:name>
+    </dt:manufacturer>
+    <dt:baseurl>https://dtw.twinbase.org</dt:baseurl>
+  </rdf:Description>
+</rdf:RDF>

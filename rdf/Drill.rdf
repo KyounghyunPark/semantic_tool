@@ -1,0 +1,25 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dt="https://etri.re.kr#">
+  <rdf:Description rdf:about="https://dtid.org/19096ff3-8c0e-4d16-82d4-d0220f33709b">
+    <dt:mindsphere rdf:parseType="Resource">
+      <dt:secret>GWCXZB5FNPFAN7CJPK8jG0B5fBvsgrsEiuqELN3U8Xz</dt:secret>
+      <dt:id>aiicd1-twinaide-v1.0.0</dt:id>
+      <dt:assets-id>d0fbce04cac947ec8919fb8960209cc9</dt:assets-id>
+    </dt:mindsphere>
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>parent</dt:relationType>
+      <dt:dt-id>https://dtid.org/81ca4ef8-0125-4b27-8f44-3a1587e8bd57</dt:dt-id>
+    </dt:relations>
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>parent</dt:relationType>
+      <dt:dt-id>http://dtid.org/3091b292-6104-4ef3-a30f-8275b46b5ab4</dt:dt-id>
+    </dt:relations>
+    <dt:edit>https://github.com/juusoautiosalo/twinbase-demo/edit/main/docs/19096ff3-8c0e-4d16-82d4-d0220f33709b/index.yaml</dt:edit>
+    <dt:baseurl>https://dtw.twinbase.org</dt:baseurl>
+    <dt:description>Some random drill located in the AIIC lab at K3</dt:description>
+    <dt:name>Drill</dt:name>
+    <dt:hosting-iri>https://dtw.twinbase.org/19096ff3-8c0e-4d16-82d4-d0220f33709b</dt:hosting-iri>
+    <dt:dt-id>https://dtid.org/19096ff3-8c0e-4d16-82d4-d0220f33709b</dt:dt-id>
+  </rdf:Description>
+</rdf:RDF>

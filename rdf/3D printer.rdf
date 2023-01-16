@@ -1,0 +1,16 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dt="https://etri.re.kr#">
+  <rdf:Description rdf:about="https://dtid.org/a295db35-9889-4f9c-bf19-7c42a7bd72d8">
+    <dt:relations rdf:parseType="Resource">
+      <dt:relationType>parent</dt:relationType>
+      <dt:dt-id>https://dtid.org/0d8a59d0-0742-4b77-899d-5ca0d4e22b1e</dt:dt-id>
+    </dt:relations>
+    <dt:edit>https://github.com/machinaide/twinbase/edit/main/docs/a295db35-9889-4f9c-bf19-7c42a7bd72d8/index.yaml</dt:edit>
+    <dt:baseurl>https://dtw.machinaide.twinbase.org</dt:baseurl>
+    <dt:description>3D printer located in Netherlands factory</dt:description>
+    <dt:name>3D printer</dt:name>
+    <dt:hosting-iri>https://dtw.machinaide.twinbase.org/a295db35-9889-4f9c-bf19-7c42a7bd72d8</dt:hosting-iri>
+    <dt:dt-id>https://dtid.org/a295db35-9889-4f9c-bf19-7c42a7bd72d8</dt:dt-id>
+  </rdf:Description>
+</rdf:RDF>

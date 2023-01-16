@@ -1,0 +1,33 @@
+{
+   "thingId": "kr.re.etri.kmac:env_sensor",
+   "features": {
+      "env_data": {
+         "properties": {
+            "devices": {
+               "temp_c": {
+                  "topic": "temp_c",
+                  "type": "float"
+               },
+               "humi": {
+                  "topic": "humi",
+                  "type": "float"
+               },
+               "pm_2_5": {
+                  "topic": "pm_2_5",
+                  "type": "int"
+               },
+               "pm_10_0": {
+                  "topic": "pm_10_0",
+                  "type": "int"
+               },
+               "co_2": {
+                  "topic": "co_2",
+                  "type": "int"
+               },
+               "topic": "devices[0]"
+            }
+         },
+         "topic": "env_data"
+      }
+   }
+}
